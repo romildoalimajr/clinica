@@ -1,21 +1,451 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ClinicalMed</title>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="shortcut icon" type="img/x-icon" href="./img/kalangos.ico">
-        
-    </head>
-    <body>
-        <h1>ClinicalMed</h1>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClinicalMed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="img/x-icon" href="./img/kalangos.ico">
+
+</head>
+
+<body>
+
+    <!--header section starts-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-heartbeat"></i> clinical<span>Med</span></a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#services">serviços</a>
+            <a href="#about">sobre</a>
+            <a href="#doctors">doutores</a>
+            <a href="#book">consulta</a>
+            <a href="#review">comentário</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <!--header section ends-->
+
+    <!--home section starts-->
+    <section class="home" id="home">
+        <div class="image">
+            <img src="img/home-img.svg" alt="">
+        </div>
+        <div class="content">
+            <h3>stay safe, stay healthy</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quos ullam sequi non, optio aut sed. Saepe eaque libero impedit fugiat?
+            </p>
+            <a href="#" class="btn"> entre em contato <span class="fas fa-chevron-right"></span></a>
+        </div>
+    </section>
+    <!--home section ends-->
+
+    <!--icons section starts-->
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-user-md"></i>
+            <h3>140+</h3>
+            <p>doctors at work</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-user"></i>
+            <h3>1040+</h3>
+            <p>pacientes satisfeitos</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-procedures"></i>
+            <h3>500+</h3>
+            <p>bed facility</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-hospital"></i>
+            <h3>80+</h3>
+            <p>hospital avaliados</p>
+        </div>
+    </section>
+    <!--icons section ends-->
+
+    <!--services section starts-->
+    <section class="services" id="services">
+        <h1 class="heading">nossos <span>serviços</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-notes-medical"></i>
+                <h3>avaliação grátis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, recusandae.</p>
+                <a href="#" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-ambulance"></i>
+                <h3>ambulância 24/7</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, recusandae.</p>
+                <a href="#" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-user-md"></i>
+                <h3>diversas especialidades</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, recusandae.</p>
+                <a href="#" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-pills"></i>
+                <h3>medicamentos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, recusandae.</p>
+                <a href="#" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-procedures"></i>
+                <h3>internação</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, recusandae.</p>
+                <a href="#" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-heartbeat"></i>
+                <h3>cuidado total</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, recusandae.</p>
+                <a href="#" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+        </div>
+    </section>
+    <!--services section ends-->
+
+    <!--about section starts-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>sobre</span> nós</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="img/about-img.svg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>nós cuidamos da sua saúde</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum ipsum a nam aspernatur? Minima inventore qui
+                    corporis repudiandae iste cupiditate numquam. Deleniti esse tenetur quo?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab accusantium velit iste explicabo tenetur exercitationem.
+                </p>
+                <a href="#" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+            </div>
+        </div>
+    </section>
+    <!--about section ends-->
+
+    <!--doctors section starts-->
+    <section class="doctors" id="doctors">
+        <h1 class="heading">nossos <span>médicos</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/doc-1.jpg" alt="">
+                <h3>fulana de tal</h3>
+                <span>clínica médica</span>
+                <div class="share">
+                    <a href="https://www.facebook.com/kalangos.net" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"
+                        class="fab fa-linkedin"></a>
+                    <a href="https://www.instagram.com/odlimor.sevla/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                        target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://t.me/@RomildoAlvesJr" target="_blank" class="fab fa-telegram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/doc-2.jpg" alt="">
+                <h3>fulano de tal</h3>
+                <span>pediatria</span>
+                <div class="share">
+                    <a href="https://www.facebook.com/kalangos.net" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"
+                        class="fab fa-linkedin"></a>
+                    <a href="https://www.instagram.com/odlimor.sevla/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                        target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://t.me/@RomildoAlvesJr" target="_blank" class="fab fa-telegram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/doc-3.jpg" alt="">
+                <h3>beltrano de tal</h3>
+                <span>cardiologista</span>
+                <div class="share">
+                    <a href="https://www.facebook.com/kalangos.net" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"
+                        class="fab fa-linkedin"></a>
+                    <a href="https://www.instagram.com/odlimor.sevla/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                        target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://t.me/@RomildoAlvesJr" target="_blank" class="fab fa-telegram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/doc-4.jpg" alt="">
+                <h3>sicrano de tal</h3>
+                <span>dentista</span>
+                <div class="share">
+                    <a href="https://www.facebook.com/kalangos.net" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"
+                        class="fab fa-linkedin"></a>
+                    <a href="https://www.instagram.com/odlimor.sevla/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                        target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://t.me/@RomildoAlvesJr" target="_blank" class="fab fa-telegram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/doc-5.jpg" alt="">
+                <h3>tetrano de tal</h3>
+                <span>geriatria</span>
+                <div class="share">
+                    <a href="https://www.facebook.com/kalangos.net" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"
+                        class="fab fa-linkedin"></a>
+                    <a href="https://www.instagram.com/odlimor.sevla/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                        target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://t.me/@RomildoAlvesJr" target="_blank" class="fab fa-telegram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/doc-6.jpg" alt="">
+                <h3>beltra node tal</h3>
+                <span>clinica médica</span>
+                <div class="share">
+                    <a href="https://www.facebook.com/kalangos.net" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"
+                        class="fab fa-linkedin"></a>
+                    <a href="https://www.instagram.com/odlimor.sevla/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                        target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://t.me/@RomildoAlvesJr" target="_blank" class="fab fa-telegram"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--doctors section ends-->
+
+    <!--book section starts-->
+    <section class="book" id="book">
+        <h1 class="heading"><span>agendar</span> consulta</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="img/book-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <h3>agende sua consulta<h3>
+                        <input type="text" placeholder="seu nome" class="box">
+                        <input type="tel" placeholder="seu telefone" class="box">
+                        <input type="email" placeholder="seu email" class="box">
+                        <input type="date" class="box">
+                        <input type="submit" value="agende agora" class="btn">
+            </form>
+        </div>
+
+    </section>
+    <!--book section ends-->
+
+    <!--reviews section starts-->
+    <section class="review" id="review">
+        <h1 class="heading"><span>comentários</span> dos clientes</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/pic1.png" alt="">
+                <h3>fulana de tal</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam eligendi velit placeat commodi, enim ut quam
+                    autem quae libero rerum iste iure reprehenderit id itaque.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="img/pic2.png" alt="">
+                <h3>tetrano de tal</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam eligendi velit placeat commodi, enim ut quam
+                    autem quae libero rerum iste iure reprehenderit id itaque.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="img/pic3.png" alt="">
+                <h3>sicrana de tal</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam eligendi velit placeat commodi, enim ut quam
+                    autem quae libero rerum iste iure reprehenderit id itaque.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!--reviews section ends-->
+
+    <!--blogs section starts-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">nosso <span>blog</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#"> <i class="fas fa-calendar"></i> 31 de março de 2022</a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin</a>
+                    </div>
+                    <h3>blog da saúde</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Labore ab at consequatur, quia placeat voluptatibus?
+                    </p>
+                    <a href="" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#"> <i class="fas fa-calendar"></i> 31 de março de 2022</a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin</a>
+                    </div>
+                    <h3>blog da saúde</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Labore ab at consequatur, quia placeat voluptatibus?
+                    </p>
+                    <a href="" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#"> <i class="fas fa-calendar"></i> 31 de março de 2022</a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin</a>
+                    </div>
+                    <h3>blog da saúde</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Labore ab at consequatur, quia placeat voluptatibus?
+                    </p>
+                    <a href="" class="btn">saiba mais <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
 
 
-        <script src="js/script.js"></script>
-    </body>
+        </div>
+    </section>
+    <!--blogs section ends-->
+
+    <!--footer section starts-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>links rápidos</h3>
+                <a href="#home"> <i class="fas fa-chevron-right"></i> home</a>
+                <a href="#services"> <i class="fas fa-chevron-right"></i> serviços</a>
+                <a href="#about"> <i class="fas fa-chevron-right"></i> sobre</a>
+                <a href="#doctors"> <i class="fas fa-chevron-right"></i> doutores</a>
+                <a href="#book"> <i class="fas fa-chevron-right"></i> consulta</a>
+                <a href="#review"> <i class="fas fa-chevron-right"></i> comentário</a>
+                <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs</a>
+            </div>
+            <div class="box">
+                <h3>nossos serviços</h3>
+                <a href="#"><i class="fas fa-chevron-right"></i>dentista</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>pediatria</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>clínico geral</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>laboratório</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>ambulância</a>
+            </div>
+            <div class="box">
+                <h3>informações</h3>
+                <a href="#"> <i class="fas fa-phone"></i> (81) 9 9470 1058</a>
+                <a href="#"> <i class="fas fa-phone"></i> (83) 9 8600 3492</a>
+                <a href="#"> <i class="fas fa-envelope"></i> odlimor.sevla@gmail.com</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Pernambuco - Paraíba - Brasil</a>
+            </div>
+            <div class="box">
+                <h3>redes sociais</h3>
+                <a href="https://www.facebook.com/kalangos.net" target="_blank"><i class="fab fa-facebook-f"></i>
+                    facebook</a>
+                <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"><i
+                        class="fab fa-linkedin"></i> linkedin</a>
+                <a href="https://www.instagram.com/odlimor.sevla/" target="_blank"><i class="fab fa-instagram"></i>
+                    instagram</a>
+                <a href="https://t.me/@RomildoAlvesJr" target="_blank"><i class="fab fa-telegram"></i> telegram</a>
+                <a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                    target="_blank"><i class="fab fa-whatsapp"></i> whatsapp</a>
+                <a href="https://api.whatsapp.com/send?phone=5583986003492&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
+                    target="_blank"><i class="fab fa-whatsapp"></i> whatsapp</a>
+            </div>
+        </div>
+        <div class="credit">desenvolvido por <span>Romildo Jr.</span> | all rights reserved</div>
+    </section>
+    <!--footer section ends-->
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
